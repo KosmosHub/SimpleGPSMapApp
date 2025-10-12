@@ -2,7 +2,7 @@
 
 Aplicación Android desarrollada como parte de la **Actividad 2.3** del curso de Programación Android. Este proyecto integra funcionalidades reales como mapas, ubicación y descarga de imágenes, utilizando fragmentos, navegación modular y buenas prácticas de arquitectura.
 
-## 🧭 Funcionalidades principales
+##  Funcionalidades principales
 
 -  **Mapa con ubicación actual**: muestra la posición del usuario usando Google Maps y FusedLocationProviderClient.
 -  **Marcadores personalizados**: permite añadir marcadores tocando el mapa.
@@ -38,7 +38,7 @@ GPSMapApp/
 
 Código
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 
 1. Clona el repositorio:
    ```bash
