@@ -1,0 +1,2 @@
+# SimpleGPSMapApp
+Actividad para Android
