@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        AIzaSyCV6aF3fZWDWKBnFi2R5U0q302Skj1N_Bs
-    </string>
+    <!--
+      La API key de Google Maps fue removida de aquí para evitar hardcoding.
+      Ahora la clave se inyecta desde BuildConfig (local.properties -> app/build.gradle).
+      No dejes la clave en este archivo en el repositorio.
+    -->
+    <string name="google_maps_key" translatable="false">REPLACE_WITH_BUILD_CONFIG_MAPS_KEY</string>
 </resources>
