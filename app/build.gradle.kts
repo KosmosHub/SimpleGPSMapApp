@@ -21,6 +21,7 @@ android {
         // si no existe se deja cadena vacía.
         val mapsKey: String = (project.findProperty("MAPS_KEY") as? String) ?: ""
         buildConfigField("String", "MAPS_KEY", "\"$mapsKey\"")
+        manifestPlaceholders["MAPS_KEY"] = mapsKey
         // ------------------------------
     }
 
