@@ -44,6 +44,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    buildFeatures {
+        buildConfig = true  // ✅ Esto habilita BuildConfig con tus campos personalizados
+    }
 }
 
 dependencies {
